@@ -1,0 +1,18 @@
+ <html>
+ <script>
+ function age(){
+         if(document.getElementById("t1").value>=18)
+        {
+            document.getElementById("res").innerHTML="ELIGIBLE FOR VOTING";
+        }
+          else{
+              document.getElementById("res").innerHTML="you are not eligible for voting";
+          }
+    }
+    </script>
+    <body>
+    <h1>enter your age:<input type="text" id="t1"><br></h1>
+    <button type="button" onclick="age()">verify</button>
+    <div id="res"></div>
+         </body>
+ </html>
